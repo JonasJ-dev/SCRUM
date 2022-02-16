@@ -1,5 +1,16 @@
-body{
-    max-width:1550px ;
+/* @media screen and (max-width:425px){
+    .mainTest .variantasPirmas h1{
+        font-size: 20px;
+    }
+    .mainTest .variantasPirmas p{
+        font-size: 20px;
+    }
+    .mainTest .variantasPirmas ul li{
+        font-size: 20px;
+    }
+} */
+.mainTest{
+    min-width: 380px;
 }
 
 
