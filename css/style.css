@@ -27,7 +27,7 @@ li{
     margin-top: 20px;
 }
 
-main{
+.mainTest{
     background-image: url(../img/pav1.jpg);
     background-size: cover;
     height: 70vh;
