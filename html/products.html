@@ -64,17 +64,16 @@
       
       <h3>Prekės ženklas</h3>
       <ul>
-        <li><input type="radio"></li>
-        <li><input type="radio"></li>
-        <li><input type="radio"></li>
-        <li><input type="radio"></li>
-        <li><input type="radio"></li>
+        <li onclick="amberfarm()"><input name="type" type="radio"> Amberfarm</li>
+        <li onclick="diveevo()"><input name="type" type="radio"> Diveevo</li>
+        <li onclick="justmake()"><input name="type" type="radio"> Justmake</li>
+          <br><button class="reset-filter" onclick="reset()">Valyti filtrą</button>
       </ul>
 
     </aside>
     <section>
       <div class="row">
-        <div class="card col-sm-3 black  b" style="width-max: 18rem;">
+        <div class="card col-sm-3 black g b" style="width-max: 18rem;">
           <img src="../img/juodoji-arbata-sandakphu-ruby.jpg" class="card-img-top" alt="...">
           <div class="card-body">
             <p>3,20 €</p>
@@ -85,7 +84,7 @@
            
           </div>
         </div>
-        <div class="card col-sm-3 black b" style="width-max 18rem;">
+        <div class="card col-sm-3 black g b" style="width-max 18rem;">
           <img src="../img/juodoji-arbata-gold-assam.jpg" class="card-img-top" alt="...">
           <div class="card-body">
             <p>5,30 €</p>
@@ -96,7 +95,7 @@
  
           </div>
         </div>
-        <div class="card col-sm-3 black a" style="width-max: 18rem;">
+        <div class="card col-sm-3 black h a" style="width-max: 18rem;">
           <img src="../img/juodoji-arbata-earl-grey.jpg" class="card-img-top" alt="...">
           <div class="card-body">
             <p>1,50 €</p>
@@ -107,7 +106,7 @@
            
           </div>
         </div>
-        <div class="card col-sm-3 black c" style="width-max: 18rem;">
+        <div class="card col-sm-3 black h c" style="width-max: 18rem;">
           <img src="../img/juodoji-arbata-golden-needle.jpg" class="card-img-top" alt="...">
           <div class="card-body">
             <p>7,50 €</p>
@@ -121,7 +120,7 @@
 
       </div>
       <div class="row">
-        <div class="card col-sm-3 green a" style="width-max: 18rem;">
+        <div class="card col-sm-3 green h a" style="width-max: 18rem;">
           <img src="../img/zalioji-arbata-green-snail-yunnan.jpg" class="card-img-top" alt="...">
           <div class="card-body">
             <p>2,65 €</p>
@@ -134,7 +133,7 @@
 
           </div>
         </div>
-        <div class="card col-sm-3 green a " style="width-max: 18rem;">
+        <div class="card col-sm-3 green h a " style="width-max: 18rem;">
           <img src="../img/nepalo-zalioji-arbata-sandakphu-green.jpg" class="card-img-top" alt="...">
           <div class="card-body">
             <p>2,99 €</p>
@@ -146,7 +145,7 @@
 
           </div>
         </div>
-        <div class="card col-sm-3 green a" style="width-max: 18rem;">
+        <div class="card col-sm-3 green n a" style="width-max: 18rem;">
           <img src="../img/zalioji-arbata-japan-sencha.jpg" class="card-img-top" alt="...">
           <div class="card-body">
             <p>2,49 €</p>
@@ -159,7 +158,7 @@
 
           </div>
         </div>
-        <div class="card col-sm-3 green a" style="width-max: 18rem;">
+        <div class="card col-sm-3 green n a" style="width-max: 18rem;">
           <img src="../img/zalioji-arbata-japan-genmaicha.jpg" class="card-img-top" alt="...">
           <div class="card-body">
             <p>2,30 €</p>
@@ -174,7 +173,7 @@
 
       </div>
       <div class="row">
-        <div class="card col-sm-3 fruitful a" style="width-max: 18rem;">
+        <div class="card col-sm-3 fruitful n a" style="width-max: 18rem;">
           <img src="../img/vaisine-arbata-uogele.jpg" class="card-img-top" alt="...">
           <div class="card-body">
             <p>1,80 €</p>
@@ -186,7 +185,7 @@
 
           </div>
         </div>
-        <div class="card col-sm-3 fruitful a" style="width-max: 18rem;">
+        <div class="card col-sm-3 fruitful n a" style="width-max: 18rem;">
           <img src="../img/vaisine-besimokantiems-arbata.jpg" class="card-img-top" alt="...">
           <div class="card-body">
             <p>1,50 €</p>
@@ -197,7 +196,7 @@
 
           </div>
         </div>
-        <div class="card col-sm-3 fruitful c" style="width-max: 18rem;">
+        <div class="card col-sm-3 fruitful n c" style="width-max: 18rem;">
           <img src="../img/vaisine-saules-spinduliu-arbata.jpg" class="card-img-top" alt="...">
           <div class="card-body">
             <p>4,95 €</p>
@@ -209,7 +208,7 @@
 
           </div>
         </div>
-        <div class="card col-sm-3 fruitful a" style="width-max: 18rem;">
+        <div class="card col-sm-3 fruitful n a" style="width-max: 18rem;">
           <img src="../img/vaisine-ananasu-ir-kokosu-arbata.jpg" class="card-img-top" alt="...">
           <div class="card-body">
             <p>1,98 €</p>
@@ -223,7 +222,7 @@
 
       </div>
       <div class="row">
-        <div class="card col-sm-3 red a" style="width-max: 280px;">
+        <div class="card col-sm-3 red g a" style="width-max: 280px;">
           <img src="../img/raudonoji-rooibos-arbata-kalahari.jpg" class="card-img-top" alt="...">
           <div class="card-body">
             <p>1,50 €</p>
@@ -234,7 +233,7 @@
 
           </div>
         </div>
-        <div class="card col-sm-3 red a" style="width-max: 280px;">
+        <div class="card col-sm-3 red g a" style="width-max: 280px;">
           <img src="../img/raudonoji-rooibos-arbata-mocca-cream.jpg" class="card-img-top" alt="...">
           <div class="card-body">
             <p>1,50 €</p>
@@ -245,7 +244,7 @@
            
           </div>
         </div>
-        <div class="card col-sm-3 red a" style="width-max: 280px;">
+        <div class="card col-sm-3 red h a" style="width-max: 280px;">
           <img src="../img/raudonoji-rooibos-arbata-wintertime.jpg" class="card-img-top" alt="...">
           <div class="card-body">
             <p>1,65 €</p>
@@ -257,7 +256,7 @@
 
           </div>
         </div>
-        <div class="card col-sm-3 red a" style="width-max: 280px;">
+        <div class="card col-sm-3 red h a" style="width-max: 280px;">
           <img src="../img/raudonoji-rooibos-arbata-marzipan.jpg" class="card-img-top" alt="...">
           <div class="card-body">
             <p>1,50€</p>
@@ -270,7 +269,7 @@
 
       </div>
       <div class="row">
-        <div class="card col-sm-3 white b" style="width-max: 280px;">
+        <div class="card col-sm-3 white g b" style="width-max: 280px;">
           <img src="../img/baltoji-arbata-buddha-s-little-secret.jpg" class="card-img-top" alt="...">
           <div class="card-body">
             <p>3,30 €</p>
@@ -281,7 +280,7 @@
 
           </div>
         </div>
-        <div class="card col-sm-3 white b" style="width-max: 280px">
+        <div class="card col-sm-3 white g b" style="width-max: 280px">
           <img src="../img/baltoji-arbata-friends-forever.jpg" class="card-img-top" alt="...">
           <div class="card-body">
             <p>3,40 €</p>
@@ -292,7 +291,7 @@
            
           </div>
         </div>
-        <div class="card col-sm-3 white d" style="width-max: 280px;">
+        <div class="card col-sm-3 white g d" style="width-max: 280px;">
           <img src="../img/baltoji-arbata-bai-hao-yin-zhen.jpg" class="card-img-top" alt="...">
           <div class="card-body">
             <p>11,34 €</p>
@@ -304,7 +303,7 @@
 
           </div>
         </div>
-        <div class="card col-sm-3 white d" style="width-max: 280px;">
+        <div class="card col-sm-3 white g d" style="width-max: 280px;">
           <img src="../img/baltoji-arbata-pai-mu-tan.jpg" class="card-img-top" alt="...">
           <div class="card-body">
             <p>12,49 €</p>

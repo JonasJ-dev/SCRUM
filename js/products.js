@@ -278,6 +278,97 @@ function price12(){
         const element = list[i];
         element.classList.remove('d-none');    
     };
+
+}
+
+function amberfarm(){
+    let list2 = document.getElementsByClassName("g" );
+    for(let i = 0; i < list2.length; i++ ) {
+        const element = list2[i];
+        element.classList.add('d-none');    
+    };
+
+    let list3 = document.getElementsByClassName("h" );
+    for(let i = 0; i < list3.length; i++ ) {
+        const element = list3[i];
+        element.classList.add('d-none');    
+    };
+
     
+
+    let list = document.getElementsByClassName("n" );
+    for(let i = 0; i < list.length; i++ ) {
+        const element = list[i];
+        element.classList.remove('d-none');    
+    };
+
+}
+
+function diveevo(){
+    let list2 = document.getElementsByClassName("n" );
+    for(let i = 0; i < list2.length; i++ ) {
+        const element = list2[i];
+        element.classList.add('d-none');    
+    };
+
+    let list3 = document.getElementsByClassName("h" );
+    for(let i = 0; i < list3.length; i++ ) {
+        const element = list3[i];
+        element.classList.add('d-none');    
+    };
+
+    
+
+    let list = document.getElementsByClassName("g" );
+    for(let i = 0; i < list.length; i++ ) {
+        const element = list[i];
+        element.classList.remove('d-none');    
+    };
+
+}
+
+function justmake(){
+    let list2 = document.getElementsByClassName("n" );
+    for(let i = 0; i < list2.length; i++ ) {
+        const element = list2[i];
+        element.classList.add('d-none');    
+    };
+
+    let list3 = document.getElementsByClassName("g" );
+    for(let i = 0; i < list3.length; i++ ) {
+        const element = list3[i];
+        element.classList.add('d-none');    
+    };
+
+    
+
+    let list = document.getElementsByClassName("h" );
+    for(let i = 0; i < list.length; i++ ) {
+        const element = list[i];
+        element.classList.remove('d-none');    
+    };
+
+}
+
+function reset(){
+    let list2 = document.getElementsByClassName("n" );
+    for(let i = 0; i < list2.length; i++ ) {
+        const element = list2[i];
+        element.classList.remove('d-none');    
+    };
+
+    let list3 = document.getElementsByClassName("g" );
+    for(let i = 0; i < list3.length; i++ ) {
+        const element = list3[i];
+        element.classList.remove('d-none');    
+    };
+
+    
+
+    let list = document.getElementsByClassName("h" );
+    for(let i = 0; i < list.length; i++ ) {
+        const element = list[i];
+        element.classList.remove('d-none');    
+    };
 
 }
