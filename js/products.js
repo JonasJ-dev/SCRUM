@@ -1,5 +1,4 @@
 
-
 function teaGreen() {
 
     let list2 = document.getElementsByClassName("black" );
@@ -165,3 +164,120 @@ function teaWhite(){
 
 }
 
+function price2(){
+    let list2 = document.getElementsByClassName("b" );
+    for(let i = 0; i < list2.length; i++ ) {
+        const element = list2[i];
+        element.classList.add('d-none');    
+    };
+
+    let list3 = document.getElementsByClassName("c" );
+    for(let i = 0; i < list3.length; i++ ) {
+        const element = list3[i];
+        element.classList.add('d-none');    
+    };
+
+    let list4 = document.getElementsByClassName("d" );
+    for(let i = 0; i < list4.length; i++ ) {
+        const element = list4[i];
+        element.classList.add('d-none');    
+    };
+
+    
+
+    let list = document.getElementsByClassName("a" );
+    for(let i = 0; i < list.length; i++ ) {
+        const element = list[i];
+        element.classList.remove('d-none');    
+    };
+    
+
+}
+function price6(){
+    let list2 = document.getElementsByClassName("a" );
+    for(let i = 0; i < list2.length; i++ ) {
+        const element = list2[i];
+        element.classList.add('d-none');    
+    };
+
+    let list3 = document.getElementsByClassName("c" );
+    for(let i = 0; i < list3.length; i++ ) {
+        const element = list3[i];
+        element.classList.add('d-none');    
+    };
+
+    let list4 = document.getElementsByClassName("d" );
+    for(let i = 0; i < list4.length; i++ ) {
+        const element = list4[i];
+        element.classList.add('d-none');    
+    };
+
+    
+
+    let list = document.getElementsByClassName("b" );
+    for(let i = 0; i < list.length; i++ ) {
+        const element = list[i];
+        element.classList.remove('d-none');    
+    };
+    
+
+}
+
+function price9(){
+    let list2 = document.getElementsByClassName("a" );
+    for(let i = 0; i < list2.length; i++ ) {
+        const element = list2[i];
+        element.classList.add('d-none');    
+    };
+
+    let list3 = document.getElementsByClassName("b" );
+    for(let i = 0; i < list3.length; i++ ) {
+        const element = list3[i];
+        element.classList.add('d-none');    
+    };
+
+    let list4 = document.getElementsByClassName("d" );
+    for(let i = 0; i < list4.length; i++ ) {
+        const element = list4[i];
+        element.classList.add('d-none');    
+    };
+
+    
+
+    let list = document.getElementsByClassName("c" );
+    for(let i = 0; i < list.length; i++ ) {
+        const element = list[i];
+        element.classList.remove('d-none');    
+    };
+    
+}
+
+function price12(){
+    let list2 = document.getElementsByClassName("a" );
+    for(let i = 0; i < list2.length; i++ ) {
+        const element = list2[i];
+        element.classList.add('d-none');    
+    };
+
+    let list3 = document.getElementsByClassName("b" );
+    for(let i = 0; i < list3.length; i++ ) {
+        const element = list3[i];
+        element.classList.add('d-none');    
+    };
+
+    let list4 = document.getElementsByClassName("c" );
+    for(let i = 0; i < list4.length; i++ ) {
+        const element = list4[i];
+        element.classList.add('d-none');    
+    };
+
+    
+
+    let list = document.getElementsByClassName("d" );
+    for(let i = 0; i < list.length; i++ ) {
+        const element = list[i];
+        element.classList.remove('d-none');    
+    };
+    
+
+}
