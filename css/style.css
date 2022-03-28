@@ -123,3 +123,8 @@ h3{
     border-radius: 20px;
     color: white;
 }
+
+#cars{
+    height: 35em;
+    object-fit: fill;
+}
